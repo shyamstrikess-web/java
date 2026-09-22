@@ -1,3 +1,4 @@
+//write a java program to use simple inner class in your program 
 public class Main {
     public static void main(String[] args) {
 
