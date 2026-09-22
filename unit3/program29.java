@@ -1,17 +1,17 @@
 // Write a java program to implement Exception Propagation
 class ExceptionPropagationExample {
 
-    // Method 1: Throws the exception
+  
     static void method1() {
-        int data = 50 / 0; // ArithmeticException happens here
+        int data = 50 / 0; 
     }
 
-    // Method 2: Calls method1, doesn't handle it, so exception propagates up
+ 
     static void method2() {
         method1();
     }
 
-    // Method 3: Catches the propagated exception
+ 
     public static void main(String[] args) {
         try {
             method2();
