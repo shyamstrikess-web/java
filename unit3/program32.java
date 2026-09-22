@@ -1,3 +1,4 @@
+//Write a java program to use Static Inner Class
 class Outer {
     static String msg = "Hello from Static Inner Class!";
 
