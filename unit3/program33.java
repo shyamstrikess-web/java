@@ -1,3 +1,4 @@
+//Write a java program to use Local Inner Class 
 class Outer {
     void show() {
 
